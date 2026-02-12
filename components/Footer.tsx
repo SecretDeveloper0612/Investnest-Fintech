@@ -71,6 +71,9 @@ const Footer: React.FC = () => {
           <Link to="#" className="text-[9px] md:text-[10px] font-bold text-[#999999] uppercase tracking-widest hover:text-[#111111]">Privacy</Link>
           <Link to="#" className="text-[9px] md:text-[10px] font-bold text-[#999999] uppercase tracking-widest hover:text-[#111111]">Terms</Link>
           <span className="text-[9px] md:text-[10px] font-bold text-[#999999] uppercase tracking-widest">© 2024 Investnest</span>
+          <span className="text-[9px] md:text-[10px] font-bold text-[#999999] uppercase tracking-widest">
+            Developed by | <a href="https://preettech.com/" target="_blank" rel="noopener noreferrer" className="text-[#1F4E8C] hover:text-[#111111] transition-colors">Preet Tech</a>
+          </span>
         </div>
       </div>
     </footer>
